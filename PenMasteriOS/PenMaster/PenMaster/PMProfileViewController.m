@@ -28,12 +28,34 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//Actions from nib
+- (IBAction)goBackToLoginScreen:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)loadCharactersTableViewCells:(id)sender
+{
+
+}
+
+- (IBAction)loadStoriesTableViewCells:(id)sender
+{
+
+}
+
+- (IBAction)changeProfilePicture:(id)sender
+{
+
 }
 
 @end

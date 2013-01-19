@@ -7,6 +7,7 @@
 //
 
 #import "PMViewController.h"
+#import "PMProfileViewController.h"
 
 @interface PMViewController ()
 
@@ -23,6 +24,7 @@
     //Set the delegates of the textfields
     self.usernameTextField.delegate = self;
     self.passwordTextField.delegate = self;
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,7 +41,9 @@
 
 -(IBAction)goToProfileScreen:(id)sender
 {
-
+    PMProfileViewController *profileViewController = [[PMProfileViewController alloc]initWithNibName:@"PMProfileViewController" bundle:nil];
+    NSLog(@"%@,", self.navigationController);
+    [self.navigationController pushViewController:profileViewController animated:YES];
 }
 
 //Delegates
