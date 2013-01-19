@@ -30,6 +30,14 @@
 		0CFC89CC16AB4EC50044B4F3 /* storyBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89CB16AB4EC50044B4F3 /* storyBook.png */; };
 		0CFC89CE16AB50160044B4F3 /* characterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89CD16AB50160044B4F3 /* characterButton.png */; };
 		0CFC89D016AB53430044B4F3 /* editPicButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89CF16AB53430044B4F3 /* editPicButtonDefault.png */; };
+		0CFC89D216AB60B60044B4F3 /* storiesFeedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89D116AB60B60044B4F3 /* storiesFeedButton.png */; };
+		0CFC89D616AB61350044B4F3 /* PMStoriesFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC89D416AB61350044B4F3 /* PMStoriesFeedViewController.m */; };
+		0CFC89D716AB61350044B4F3 /* PMStoriesFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89D516AB61350044B4F3 /* PMStoriesFeedViewController.xib */; };
+		0CFC89D916AB64340044B4F3 /* friendsButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89D816AB64340044B4F3 /* friendsButtonDefault.png */; };
+		0CFC89DB16AB64C70044B4F3 /* favoriteButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89DA16AB64C70044B4F3 /* favoriteButtonDefault.png */; };
+		0CFC89DD16AB65E00044B4F3 /* createStoryButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89DC16AB65E00044B4F3 /* createStoryButtonDefault.png */; };
+		0CFC89E116AB66E80044B4F3 /* PMCreateStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC89DF16AB66E80044B4F3 /* PMCreateStoryViewController.m */; };
+		0CFC89E216AB66E80044B4F3 /* PMCreateStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CFC89E016AB66E80044B4F3 /* PMCreateStoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +70,16 @@
 		0CFC89CB16AB4EC50044B4F3 /* storyBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = storyBook.png; path = ../../../../storyBook.png; sourceTree = "<group>"; };
 		0CFC89CD16AB50160044B4F3 /* characterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = characterButton.png; path = ../../../../characterButton.png; sourceTree = "<group>"; };
 		0CFC89CF16AB53430044B4F3 /* editPicButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editPicButtonDefault.png; path = ../../../../editPicButtonDefault.png; sourceTree = "<group>"; };
+		0CFC89D116AB60B60044B4F3 /* storiesFeedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = storiesFeedButton.png; path = ../../../../storiesFeedButton.png; sourceTree = "<group>"; };
+		0CFC89D316AB61350044B4F3 /* PMStoriesFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMStoriesFeedViewController.h; sourceTree = "<group>"; };
+		0CFC89D416AB61350044B4F3 /* PMStoriesFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMStoriesFeedViewController.m; sourceTree = "<group>"; };
+		0CFC89D516AB61350044B4F3 /* PMStoriesFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMStoriesFeedViewController.xib; sourceTree = "<group>"; };
+		0CFC89D816AB64340044B4F3 /* friendsButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friendsButtonDefault.png; path = ../../../../friendsButtonDefault.png; sourceTree = "<group>"; };
+		0CFC89DA16AB64C70044B4F3 /* favoriteButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favoriteButtonDefault.png; path = ../../../../favoriteButtonDefault.png; sourceTree = "<group>"; };
+		0CFC89DC16AB65E00044B4F3 /* createStoryButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = createStoryButtonDefault.png; path = ../../../../createStoryButtonDefault.png; sourceTree = "<group>"; };
+		0CFC89DE16AB66E70044B4F3 /* PMCreateStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCreateStoryViewController.h; sourceTree = "<group>"; };
+		0CFC89DF16AB66E80044B4F3 /* PMCreateStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCreateStoryViewController.m; sourceTree = "<group>"; };
+		0CFC89E016AB66E80044B4F3 /* PMCreateStoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMCreateStoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +131,13 @@
 				0CFC89A116AB1E960044B4F3 /* PMViewController.h */,
 				0CFC89A216AB1E960044B4F3 /* PMViewController.m */,
 				0CFC89BE16AB43ED0044B4F3 /* PMProfileViewController.h */,
+				0CFC89D316AB61350044B4F3 /* PMStoriesFeedViewController.h */,
+				0CFC89D416AB61350044B4F3 /* PMStoriesFeedViewController.m */,
+				0CFC89D516AB61350044B4F3 /* PMStoriesFeedViewController.xib */,
 				0CFC89BF16AB43ED0044B4F3 /* PMProfileViewController.m */,
+				0CFC89DE16AB66E70044B4F3 /* PMCreateStoryViewController.h */,
+				0CFC89DF16AB66E80044B4F3 /* PMCreateStoryViewController.m */,
+				0CFC89E016AB66E80044B4F3 /* PMCreateStoryViewController.xib */,
 				0CFC89C016AB43ED0044B4F3 /* PMProfileViewController.xib */,
 				0CFC89A416AB1E960044B4F3 /* PMViewController.xib */,
 				0CFC899016AB1E960044B4F3 /* Supporting Files */,
@@ -124,6 +148,10 @@
 		0CFC899016AB1E960044B4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CFC89DC16AB65E00044B4F3 /* createStoryButtonDefault.png */,
+				0CFC89DA16AB64C70044B4F3 /* favoriteButtonDefault.png */,
+				0CFC89D816AB64340044B4F3 /* friendsButtonDefault.png */,
+				0CFC89D116AB60B60044B4F3 /* storiesFeedButton.png */,
 				0CFC89CF16AB53430044B4F3 /* editPicButtonDefault.png */,
 				0CFC89CD16AB50160044B4F3 /* characterButton.png */,
 				0CFC89CB16AB4EC50044B4F3 /* storyBook.png */,
@@ -213,6 +241,12 @@
 				0CFC89CC16AB4EC50044B4F3 /* storyBook.png in Resources */,
 				0CFC89CE16AB50160044B4F3 /* characterButton.png in Resources */,
 				0CFC89D016AB53430044B4F3 /* editPicButtonDefault.png in Resources */,
+				0CFC89D216AB60B60044B4F3 /* storiesFeedButton.png in Resources */,
+				0CFC89D716AB61350044B4F3 /* PMStoriesFeedViewController.xib in Resources */,
+				0CFC89D916AB64340044B4F3 /* friendsButtonDefault.png in Resources */,
+				0CFC89DB16AB64C70044B4F3 /* favoriteButtonDefault.png in Resources */,
+				0CFC89DD16AB65E00044B4F3 /* createStoryButtonDefault.png in Resources */,
+				0CFC89E216AB66E80044B4F3 /* PMCreateStoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +261,8 @@
 				0CFC899A16AB1E960044B4F3 /* PMAppDelegate.m in Sources */,
 				0CFC89A316AB1E960044B4F3 /* PMViewController.m in Sources */,
 				0CFC89C116AB43ED0044B4F3 /* PMProfileViewController.m in Sources */,
+				0CFC89D616AB61350044B4F3 /* PMStoriesFeedViewController.m in Sources */,
+				0CFC89E116AB66E80044B4F3 /* PMCreateStoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

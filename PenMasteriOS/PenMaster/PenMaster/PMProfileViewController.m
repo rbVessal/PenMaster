@@ -2,11 +2,13 @@
 //  PMProfileViewController.m
 //  PenMaster
 //
-//  Created by Luis Bobadilla on 1/19/13.
+//  Created by Rebecca Vessal on 1/19/13.
 //  Copyright (c) 2013 Rebecca Vessal. All rights reserved.
 //
 
 #import "PMProfileViewController.h"
+#import "PMStoriesFeedViewController.h"
+#import "PMCreateStoryViewController.h"
 
 @interface PMProfileViewController ()
 
@@ -45,17 +47,29 @@
 
 - (IBAction)loadCharactersTableViewCells:(id)sender
 {
-
+    self.storiesCharactersCreatedLabel.text = @"Characters Created: ";
 }
 
 - (IBAction)loadStoriesTableViewCells:(id)sender
 {
-
+    self.storiesCharactersCreatedLabel.text = @"Stories Created: ";
 }
 
 - (IBAction)changeProfilePicture:(id)sender
 {
 
+}
+
+- (IBAction)goToStoriesFeedViewController:(id)sender
+{
+    PMStoriesFeedViewController *storiesFeedViewController = [[PMStoriesFeedViewController alloc]initWithNibName:@"PMStoriesFeedViewController" bundle:nil];
+    [self.navigationController pushViewController:storiesFeedViewController animated:YES];
+}
+
+- (IBAction)goToCreateStoryScreen:(id)sender
+{
+    PMCreateStoryViewController *createStoryViewController = [[PMCreateStoryViewController alloc]initWithNibName:@"PMCreateStoryViewController" bundle:nil];
+    [self.navigationController pushViewController:createStoryViewController animated:YES];
 }
 
 @end
